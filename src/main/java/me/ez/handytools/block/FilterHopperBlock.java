@@ -2,6 +2,8 @@ package me.ez.handytools.block;
 
 import me.ez.handytools.Config;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
@@ -38,6 +40,10 @@ public class FilterHopperBlock extends HopperBlock {
         if (!stack.isEmpty() && level.getBlockEntity(pos) instanceof FilterHopperBlockEntity hopper) {
             if (!level.isClientSide()) {
                 hopper.setFilter(stack);
+                if (level instanceof ServerLevel server) {
+                    server.sendParticles(ParticleTypes.WAX_ON, pos.getX() + 0.5,
+                            pos.getY() + 0.9, pos.getZ() + 0.5, 5, 0.2, 0.1, 0.2, 0.01);
+                }
                 player.sendOverlayMessage(Component.translatable("handytools.filter_hopper.set", stack.getHoverName()));
             }
             return level.isClientSide() ? InteractionResult.SUCCESS : InteractionResult.SUCCESS_SERVER;
