@@ -1,0 +1,27 @@
+{
+  "name": "Handy Tools",
+  "slug": "handytools",
+  "modId": "handytools",
+  "version": "1.0.0+26.1.2",
+  "summary": "Three practical tools: roll out dirt paths in a plane, read any redstone signal, and a hopper that only accepts the item type you choose.",
+  "tagline": "Little tools, big time savers.",
+  "categories": [
+    "Vanilla+",
+    "Utility & QoL"
+  ],
+  "gameVersion": "26.1.2",
+  "modLoader": "NeoForge",
+  "neoforgeVersion": "26.1.2.108",
+  "javaVersion": 25,
+  "license": "All Rights Reserved",
+  "authors": [
+    "Love, Cheese By Ez"
+  ],
+  "side": "Client",
+  "repo": "https://github.com/igu1/handytools_minecraft_mod",
+  "issueTracker": "https://github.com/igu1/handytools_minecraft_mod/issues",
+  "logo": "logo.png",
+  "releaseType": "release",
+  "artifact": "builds/26.1.2-neoforge/handytools-1.0.0+26.1.2.jar",
+  "status": "Released 1.0.0"
+}

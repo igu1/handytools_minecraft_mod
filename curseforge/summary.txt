@@ -1,0 +1,1 @@
+Three practical tools: roll out dirt paths in a plane, read any redstone signal, and a hopper that only accepts the item type you choose.

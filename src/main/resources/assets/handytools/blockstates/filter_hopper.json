@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "facing=down,enabled=true": {
+      "model": "handytools:block/filter_hopper"
+    },
+    "facing=down,enabled=false": {
+      "model": "handytools:block/filter_hopper"
+    },
+    "facing=east,enabled=true": {
+      "model": "handytools:block/filter_hopper",
+      "y": 90
+    },
+    "facing=east,enabled=false": {
+      "model": "handytools:block/filter_hopper",
+      "y": 90
+    },
+    "facing=north,enabled=true": {
+      "model": "handytools:block/filter_hopper"
+    },
+    "facing=north,enabled=false": {
+      "model": "handytools:block/filter_hopper"
+    },
+    "facing=south,enabled=true": {
+      "model": "handytools:block/filter_hopper",
+      "y": 180
+    },
+    "facing=south,enabled=false": {
+      "model": "handytools:block/filter_hopper",
+      "y": 180
+    },
+    "facing=west,enabled=true": {
+      "model": "handytools:block/filter_hopper",
+      "y": 270
+    },
+    "facing=west,enabled=false": {
+      "model": "handytools:block/filter_hopper",
+      "y": 270
+    }
+  }
+}

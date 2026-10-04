@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "handytools:block/filter_hopper"
+  }
+}

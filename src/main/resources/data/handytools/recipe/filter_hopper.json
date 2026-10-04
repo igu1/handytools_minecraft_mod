@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "H": "minecraft:hopper"
+  },
+  "pattern": [
+    " I ",
+    "IHI",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "handytools:filter_hopper"
+  }
+}
